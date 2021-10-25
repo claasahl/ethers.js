@@ -1,6 +1,5 @@
 {
-  "name": "@claasahl/ethers",
-  "version": "0.0.1",
+  "name": "ethers",
   "common": {
     "ethereum": "donations.ethers.eth",
     "funding": [
@@ -14,10 +13,10 @@
       }
     ]
   },
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/claasahl/ethers.js.git"
+    "url": "git://github.com/ethers-io/ethers.js.git"
   },
   "scripts": {
     "preinstall": "npm run bootstrap-hoist",
